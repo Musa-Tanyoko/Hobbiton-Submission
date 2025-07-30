@@ -163,13 +163,9 @@ function App() {
         {/* Header with Logo */}
         <div className="text-center mb-8">
           <div className="logo-container">
-            <img src={hobbitonLogo} alt="Hobbiton Insurance" className="h-16 w-auto mb-4" />
+            <img src={hobbitonLogo} alt="Hobbiton Insurance" className="h-20 w-auto mb-4" />
           </div>
-          <h1 className="logo-text">Hobbiton Insurance</h1>
           <p className="logo-tagline">Motor Insurance Quote Calculator</p>
-          {userId && (
-            <p className="text-xs text-white/70 mt-2">User ID: {userId}</p>
-          )}
         </div>
 
         {/* Progress Bar */}
